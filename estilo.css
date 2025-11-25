@@ -1,0 +1,138 @@
+ 
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+ 
+.container {
+    /* margin-top: 160px;
+    margin-bottom: auto; */
+    margin: auto;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+    font-size: 21px;
+    width: 420px;
+    /* justify-content: center; */
+}
+ 
+h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+ 
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+ 
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 21px;
+}
+ 
+button {
+    background: #4a126e;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 22px;
+}
+ 
+button:hover {
+    background: #470757;
+}
+ 
+.mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+}
+ 
+.mensagem.maior {
+    background: #c8f7c5;
+    color: #2d7a2d;
+}
+ 
+.mensagem.menor {
+    background: #f8d7da;
+    color: #842029;
+}
+ 
+.mensagem.erro {
+    background: #fff3cd;
+    color: #856404;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 21px;
+    background-color: #c7cad8;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+
+}
+
+table, th, td {
+    border: 2px solid #000;  /* bordas mais visíveis */
+}
+
+th {
+    background: #f1f2f3;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+td {
+    padding: 10px;
+    font-size: 15px;
+}
+footer {
+    margin-top: auto;
+    width: 99,99%;
+    text-align: center;
+    padding: 15px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 18px;
+    border-top: 1px solid #ccc;
+}
